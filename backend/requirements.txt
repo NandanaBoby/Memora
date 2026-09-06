@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    restart: always
+    environment:
+      POSTGRES_USER: memora
+      POSTGRES_PASSWORD: memora_pass
+      POSTGRES_DB: memora_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:

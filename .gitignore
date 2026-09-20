@@ -5,3 +5,5 @@ __pycache__/
 .DS_Store
 backend/app/credentials.json
 backend/app/token.json
+backend/app/credentials.json
+backend/app/token.json

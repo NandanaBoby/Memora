@@ -7,3 +7,5 @@ backend/app/credentials.json
 backend/app/token.json
 backend/app/credentials.json
 backend/app/token.json
+frontend/node_modules/
+frontend/dist/
